@@ -44,4 +44,4 @@ class Leader implements ILeader {
   }
 }
 
-// export default Leader;
+export default Leader;
