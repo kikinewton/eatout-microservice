@@ -1,0 +1,24 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "LeaderAPI",
+    "description": "An api for the leader service",
+    "license": {
+      "name": "MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "/",
+      "description": "Local Development Server"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Leaders",
+      "description": "An api for the leader service"
+    }
+  ],
+  "consumes": ["application/json"]
+}
